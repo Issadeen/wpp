@@ -1,0 +1,28 @@
+{
+  "name": "copilotbot-wpp",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot for Azure",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm install"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-fetch": "^2.7.0",
+    "nodemailer": "^6.9.0",
+    "qrcode": "^1.5.3",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.20.0",
+    "puppeteer": "^19.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://copilotbot-wpp.scm.azurewebsites.net/copilotbot-wpp.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
